@@ -2,7 +2,7 @@
   "books": [
     {
       "id": 1,
-      "title": "Managing Components with Modeler ",
+      "title": "Managing Components with Modelerr",
       "isbn": "1932394524k-e",
       "pageCount": 10,
       "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal11.jpg",
@@ -29,9 +29,9 @@
       "pageCount": 325,
       "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cahill.jpg",
       "status": "PUBLISH",
-      "author": "Bear P. Cahill",
+      "author": "Bear P. Cahill ",
       "price": 100,
-      "available": 39
+      "available": "31"
     },
     {
       "id": 4,
@@ -251,20 +251,39 @@
           "author": "Vikram Goyal",
           "price": 100,
           "available": 73
-        },
+        }
+      ],
+      "id": 3,
+      "isBlocked": false
+    },
+    {
+      "name": "user2 ",
+      "email": "user2@gmail.com",
+      "password": "user2",
+      "role": "user",
+      "issuedBooks": [
         {
-          "id": 10,
-          "title": "Working with the Logging and Discovery Components",
-          "isbn": "1932394524n-e",
+          "id": 11,
+          "title": "Uploading files with FileUpload",
+          "isbn": "1932394524b-e",
           "pageCount": 10,
-          "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal14.jpg",
+          "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/goyal2.jpg",
           "status": "PUBLISH",
           "author": "Vikram Goyal",
           "price": 100,
-          "available": 43
+          "available": 77
         }
       ],
-      "id": 3
+      "id": 4,
+      "isBlocked": false
+    },
+    {
+      "name": "user3",
+      "email": "user3@gmail.com",
+      "password": "user3",
+      "role": "user",
+      "issuedBooks": [],
+      "id": 5
     }
   ],
   "requests": []
